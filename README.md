@@ -16,6 +16,6 @@ node ./next/index.js
 例えば、`/pages/test/nest` に `getServerSideProps.js` と `index.jsx` を置いている場合は、`localhost:3002/test/nest` からアクセスできます。
 
 ## 実装してない部分
-Link・Router
-hydrate（サーバーサイドでReactのHTMLを生成するのではなく、webpackを使いフロントで生成している）
-SSG
+- Link・Router
+- hydrate（サーバーサイドでReactのHTMLを生成するのではなく、webpackを使いフロントで生成している）
+- SSG
